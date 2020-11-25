@@ -30,8 +30,8 @@ html {
 tbody {
   border-top: 3px solid #44475a;
   tr.topic-list-item {
-    border-bottom: 1px solid #44475a;
-    background-color: #282a36;
+    border-bottom: 3px groove #272727!important;
+    background-color: #111111!important;
   }
 }
 
@@ -53,16 +53,21 @@ tbody {
 }
 
 #main-outlet {
-  padding-top: 8em;
+  padding-top: 2.5em!important;
 }
-
+.custom-footer {
+  background: #171717!important;
+  box-shadow: inset #000000ab -1px 4px 7px 1px!important;
+}
 // Header
 .d-header {
-  background-color: $secondary;
+  background-color: #000000;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,.15);
   height: 75px;
 }
-
+.custom-header-links .headerLink a{
+  color: #656565!important;
+}
 // Menu Panel Links
 .panel-body-contents {
   a {
@@ -151,6 +156,13 @@ tbody {
   span {
     color: $highlight-high;
   }
+}      .topic-body {
+  background-image: linear-gradient(to right bottom, #2c2c2c52, #152d2f78, #1919193d, #10101073, #00000061);
+  padding: 20px 0px 0px 19px!important;
+  box-shadow: 4px 12px 7px #0000005c!important;
+}
+.custom-footer .footer-section-link-wrapper a {
+  color: #ffffff4d!important;
 }
 
 // title when injected on top of topics
