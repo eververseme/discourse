@@ -163,7 +163,10 @@ tbody {
     color: $highlight-high;
   }
 }
-
+.topic-body {
+  width: auto!important;
+  float: none!important;
+}
 // title when injected on top of topics
 .extra-info-wrapper {
   .topic-link {
