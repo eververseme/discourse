@@ -299,7 +299,11 @@ input[type="color"]:focus, textarea:focus {
 .avatar {
   background-color: $primary;
 }
+.topic-avatar
+{
+  margin-left: 15px !important;
 
+}
 .unread {
   background-color: $success;
 }
