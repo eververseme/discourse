@@ -68,10 +68,11 @@ tbody {
 // Header
 
 .d-header {
-  background-color: #232323;
-  border-bottom: 0px groove #101010;
+  background-color: #23222200;
   height: 75px;
-  background-image: radial-gradient(circle, #120d3d88, #170a3977, #1b073488, #1d043088, #1f022c88);
+  box-shadow: 1px 2px 1px 0px #00000052;
+  background-image: linear-gradient(to left top, #160e27, #1d1631, #251c3b, #2d2346, #362a51);
+  border-bottom: 2px solid black;
 }
 .custom-header-links .headerLink a{
   color: #656565!important;
